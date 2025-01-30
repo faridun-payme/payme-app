@@ -29,3 +29,5 @@ captures/
 
 # .env files (if you use them)
 .env
+
+/build-logic/
