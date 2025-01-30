@@ -31,3 +31,4 @@ captures/
 .env
 
 /build-logic/
+/payme-core-ui/
