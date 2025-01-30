@@ -1,15 +1,31 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Android Studio / IntelliJ
+.idea/
+.gradle/
 local.properties
+*.iml
+
+# Built application files
+/build/
+*/build/
+*/out/
+
+# Log files
+*.log
+
+# Android NDK
+/local.properties
+
+# Android Studio specific
+.DS_Store
+*.swp
+*~
+
+# Gradle specific
+.gradle/
+build/
+
+# Android specific
+captures/
+
+# .env files (if you use them)
+.env
